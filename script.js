@@ -16,7 +16,7 @@ const showData = (meals) => {
     foodDetails.innerHTML = '<h3 class="text-center">No food is selected for showing details</h3>';
 
     if (meals === null) {
-        foodContainer.innerHTML = '<h3 class="text-center mt-5">Sorry, not found you food. Please search again.</h3>';
+        foodContainer.innerHTML = '<h3 class="text-center mt-5">Sorry, not found your food. Please search again.</h3>';
     }
 
     else {
