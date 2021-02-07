@@ -8,7 +8,6 @@ const getData = () => {
             .then(res => res.json())
             .then(data => showData(data.meals))
     }
-
 }
 
 const showData = (meals) => {
@@ -70,7 +69,6 @@ const showIngredients = (food) => {
             const ul = document.getElementById('ingredients-parent');
             const item = document.createElement('li');
             item.innerHTML = element;
-            console.log(item);
             ul.appendChild(item);
         }
     }
